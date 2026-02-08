@@ -4,6 +4,8 @@ ID No. : 2025A4PS1341P
 
 The user has to just write the name of the audio file in the command prompt when running the file and the program takes it as the .wav input and provides the output as emotion and the confidence with which it is predicting the emotion.
 
+P.S: The best model weights are saved in the .keras file. They are not the ones displayed in the jupiter notebook.
+
 #What Project does
 This project takes an audio speech file as an input, reads it, converts it to a log-mel spectrogram as that is what humans percieve sound as. It analyzes the log-mel spectrogram and classifies them using a 2D convolution neural network to identify human emotions.
 
